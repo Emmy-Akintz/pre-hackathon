@@ -44,3 +44,26 @@
 .Introduction {
   border-bottom: 1px solid whitesmoke;
 }
+
+/* rules */
+.Rules {
+  border-bottom: 1px solid whitesmoke;
+}
+
+.Rules h1.purple {
+  color: #d434fe;
+}
+
+/* judge */
+.Judge {
+  border-bottom: 1px solid whitesmoke;
+}
+
+.Judge h1.purple,
+.Judge p span {
+  color: #d434fe;
+}
+
+.Judge button.read-more {
+  background: linear-gradient(to right, #d434fe, #903aff);
+}

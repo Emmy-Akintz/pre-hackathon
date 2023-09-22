@@ -4,14 +4,14 @@ import star from '../assets/sata gra.png'
 
 const Introduction = () => {
   return (
-    <div className="Intoduction p-12">
+    <div className="Introduction p-12">
       <div className="md:flex lg:flex md:justify-between lg:justify-between">
         <div className=''>
           <div>
             <img src={bigidea} alt="" />
           </div>
         </div>
-        <div className="py-28">
+        <div className="lg:py-28 mt-8">
           <div className='flex justify-between lg:justify-between w-[300px] lg:w-[500px] items-center'>
             <div>
               <h1 className='font-bold text-xl lg:text-4xl'>Introduction to getlinked</h1>
