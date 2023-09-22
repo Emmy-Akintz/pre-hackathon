@@ -15,10 +15,10 @@ import bulb from '../assets/Creative 1.png'
 
 const Home = () => {
     return (
-        <div className='Home p-12'>
-            <img src={purplelens2} alt="" className='absolute left-0 top-[0px] h-[770px]' />
+        <div className='Home p-12 h-[1000px] md:h-auto lg:h-auto'>
+            <img src={purplelens2} alt="" className='hidden absolute left-0 top-[90px] h-[770px]' />
             <div className="flex justify-between">
-                <div className="image2">
+                <div className="image2 hidden lg:flex">
                     <img src={star} alt="" />
                 </div>
                 <div className="image1">
@@ -34,13 +34,13 @@ const Home = () => {
                     <img src={bulb} alt="" className='pl-[500px] relative' />
                 </div>
                 <div>
-                    <img src={getlinkedtech} alt="" className='relative' />
-                    <div className='flex'>
+                    <img src={getlinkedtech} alt="" className='relative w-[200px] h-[50px] md:w-[600px]' />
+                    <div className='flex w-[200px] h-[40px] md:w-[700px]'>
                         <img src={hackathon1} alt="" className='relative' />
                         <img src={chain} alt="" />
                         <img src={boom} alt="" />
                     </div>
-                    <p className='w-[400px] my-5 relative'>
+                    <p className='w-[200px] md:w-[400px] lg:w-[400px] my-5 relative'>
                         Participate in getlinked tech Hackathon 2023 stand a chance to win a big price
                     </p>
                     <button className='register-button p-2 my-5'>Register</button>
@@ -51,9 +51,9 @@ const Home = () => {
                 </div>
             </div>
             <div className=''>
-                <img src={purplelens} alt="" className='absolute right-0 top-[200px] h-[500px]' />
-                <img src={man} alt="" className='absolute right-0 top-[348px] h-[500px]' />
-                <img src={image1} alt="" className='absolute right-[4px] top-[310px] h-[500px]' />
+                <img src={purplelens} alt="" className='hidden absolute right-0 top-[200px] h-[500px]' />
+                <img src={man} alt="" className='lg:absolute lg:right-0 lg:top-[283px] h-[500px]' />
+                <img src={image1} alt="" className='hidden md:flex lg:flex lg:absolute lg:right-[4px] lg:top-[244px] h-[500px]' />
             </div>
         </div>
     );
