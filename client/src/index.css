@@ -168,3 +168,11 @@
 .Contact input.submit {
   background: linear-gradient(to right, #d434fe, #903aff);
 }
+
+@media screen and (min-width: 1000px) {
+  .Contact div.box {
+    background: #d634fe33;
+    border-radius: 7px;
+    padding: 90px;
+  }
+}

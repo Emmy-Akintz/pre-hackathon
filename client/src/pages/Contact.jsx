@@ -24,9 +24,26 @@ function Contact() {
             <div className="p-12 block lg:hidden">
                 <Link to='/'><AiFillCaretLeft /></Link>
             </div>
-            <div className="p-12">
-                <div className=""></div>
-                <div className="">
+            <div className="p-12 lg:flex justify-between">
+                <div className="hidden lg:block">
+                    <h1 className="purple font-bold text-4xl">Get in touch</h1>
+                    <p className='mt-5'>Contact</p>
+                    <p>Information</p>
+                    <p className="mt-5">27, Alara Street</p>
+                    <p>Yaba 100012</p>
+                    <p>Lagos State</p>
+                    <p className="mt-5">Call us: 07067981819</p>
+                    <p className="mt-5">We are open from Monday-Friday</p>
+                    <p>08:00am - 05:00pm</p>
+                    <p className="purple mt-5">Share on</p>
+                    <div className="flex justify-between w-[90px] mt-2">
+                        <FaInstagram />
+                        <FaTwitter />
+                        <FaFacebook />
+                        <FaLinkedin />
+                    </div>
+                </div>
+                <div className="box">
                     <h3 className='purple font-bold text-xl lg:text-2xl'>Questions or need assistance?</h3>
                     <h3 className='purple font-bold text-xl lg:text-2xl'>Let us know about it</h3>
                     <div className='mt-2 block lg:hidden'>
