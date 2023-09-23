@@ -27,6 +27,11 @@
   background: linear-gradient(to right, #d434fe, #903aff);
 }
 
+/* .Navbar .nav:hover {
+  color: linear-gradient(to right, #903aff, #d434fe);
+  color: blue;
+} */
+
 /* home */
 .Home {
   border-bottom: 1px solid whitesmoke;
@@ -95,7 +100,8 @@
   color: #d434fe;
 }
 
-.Prizes .second, .Prizes .third {
+.Prizes .second,
+.Prizes .third {
   border: 1px solid #d434fe;
   background: #d634fe33;
 }
@@ -109,7 +115,8 @@
   color: #903aff;
 }
 
-.Prizes .second h1.price-award, .Prizes .third h1.price-award {
+.Prizes .second h1.price-award,
+.Prizes .third h1.price-award {
   color: #d434fe;
 }
 
@@ -151,4 +158,13 @@
 
 .Footer span.right-border {
   border-right: 2px solid #d434fe;
+}
+
+/* contact */
+.Contact .purple {
+  color: #d434fe;
+}
+
+.Contact input.submit {
+  background: linear-gradient(to right, #d434fe, #903aff);
 }

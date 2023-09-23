@@ -13,10 +13,10 @@ const Navbar = () => {
             </div>
             <div className={dropdown ? '' : 'hidden lg:flex md:flex w-[60%] justify-between items-center'}>
                 <ul className={dropdown ? '' : 'flex w-[60%] justify-between items-center'}>
-                    <li className={dropdown ? 'my-2' : ''}><Link to='/'>Timeline</Link></li>
-                    <li className={dropdown ? 'my-2' : ''}><Link to='/'>Overview</Link></li>
-                    <li className={dropdown ? 'my-2' : ''}><Link to='/'>FAQs</Link></li>
-                    <li className={dropdown ? 'my-2' : ''}><Link to='/'>Contact</Link></li>
+                    <li className={dropdown ? 'my-2' : ''}><Link className='nav' to='/'>Timeline</Link></li>
+                    <li className={dropdown ? 'my-2' : ''}><Link className='nav' to='/'>Overview</Link></li>
+                    <li className={dropdown ? 'my-2' : ''}><Link className='nav' to='/'>FAQs</Link></li>
+                    <li className={dropdown ? 'my-2' : ''}><Link className='nav' to='/contact'>Contact</Link></li>
                 </ul>
                 <button className='register-button p-2 rounded'>Register</button>
             </div>
