@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
 import { AiFillCaretLeft } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 function Contact() {
     const [name, setName] = useState('')
@@ -13,6 +14,7 @@ function Contact() {
         setName('')
         setEmail('')
         setMessage('')
+        console.log(name, email, message);
     }
     return (
         <div className='Contact'>
@@ -32,14 +34,25 @@ function Contact() {
                     </div>
                     <br />
                     <form onSubmit={handleSubmit}>
-                        <input type="text" value={name} className='px-4 py-2 rounded' onChange={(e) => setName(e.target.value)} placeholder='First Name' />
+                        <input type="text" value={name} className='px-10 py-2 rounded' onChange={(e) => setName(e.target.value)} placeholder='First Name' />
                         <br /><br />
-                        <input type="email" value={email} className='px-4 py-2 rounded' onChange={(e) => setEmail(e.target.value)} placeholder='Mail' />
+                        <input type="email" value={email} className='px-10 py-2 rounded' onChange={(e) => setEmail(e.target.value)} placeholder='Mail' />
                         <br /><br />
-                        <input type="text" value={message} className='px-4 py-2 rounded' onChange={(e) => setMessage(e.target.value)} placeholder='Message' />
+                        <input type="text" value={message} className='px-10 py-2 rounded' onChange={(e) => setMessage(e.target.value)} placeholder='Message' />
                         <br /><br />
-                        <input type="submit" value="Submit" className='submit px-4 py-2 rounded' />
+                        <div className="text-center">
+                            <input type="submit" value="Submit" className='submit px-4 py-2 rounded' />
+                        </div>
                     </form>
+                    <div className="mt-8 text-center block lg:hidden">
+                        <p className="purple">Share on</p>
+                        <div className="flex justify-between w-[90px] m-auto mt-2">
+                            <FaInstagram />
+                            <FaTwitter />
+                            <FaFacebook />
+                            <FaLinkedin />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
