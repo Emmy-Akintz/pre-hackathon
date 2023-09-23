@@ -12,6 +12,7 @@ import image1 from '../assets/Image-1.png'
 // import purplelens from '../assets/Purple-Lens-Flare-PNG.png'
 import purplelens2 from '../assets/Purple-Lens-Flare-PNG2.png'
 import bulb from '../assets/Creative-1.png'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
@@ -44,7 +45,11 @@ const Home = () => {
                         <p className='w-[200px] md:w-[400px] lg:w-[400px] my-5 relative'>
                             Participate in getlinked tech Hackathon 2023 stand a chance to win a big price
                         </p>
-                        <button className='register-button p-2 my-5 rounded'>Register</button>
+                        <button className='register-button p-2 my-5 rounded'>
+                            <Link to='/register'>
+                                Register
+                            </Link>
+                        </button>
                         <div>
                             <img src={star2} alt="" className='pl-[450px]' />
                         </div>
