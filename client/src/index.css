@@ -9,7 +9,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #150e28;
+  background-color: #150e28a2;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -123,9 +123,6 @@
 }
 
 /* privacy */
-.Privacy {
-  border-bottom: 1px solid whitesmoke;
-}
 
 .Privacy .box {
   border: 1px solid #903aff;
@@ -141,4 +138,17 @@
 
 .Privacy h2.purple {
   color: #d434fe;
+}
+
+/* footer */
+.Footer {
+  background: #150e28;
+}
+
+.Footer .purple {
+  color: #d434fe;
+}
+
+.Footer span.right-border {
+  border-right: 2px solid #d434fe;
 }

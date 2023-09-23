@@ -3,6 +3,7 @@ import listicon from '../assets/list-terms.png'
 import star from '../assets/star-pu.png'
 import star2 from '../assets/star2.png'
 import man from '../assets/08-1.png'
+import vector from '../assets/Vector.png'
 
 function Privacy() {
     return (
@@ -31,32 +32,33 @@ function Privacy() {
                     <p className="">
                         At getlinked tech Hackathon 1.0, we value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you participate in our tech hackathon event. By participating in our event, you consent to the practices described in this policy.
                     </p>
-                    <h2 className="purple font-bold">Liscensing Policy</h2>
-                    <p className="font-bold">Here are terms of our Standard Liscense:</p>
-                    <ul>
-                        <li>
+                    <h2 className="purple font-bold mt-10">Liscensing Policy</h2>
+                    <p className="font-bold mt-3">Here are terms of our Standard Liscense:</p>
+                    <ul className='mt-1'>
+                        <li className='flex justify-between w-[250px] lg:w-[450px]'>
                             <div>
-                                <img src="" alt="" />
+                                <img src={listicon} alt="" width='20px' className='mr-1' />
                             </div>
-                            <p>
+                            <p className='w-[210px] lg:w-[410px]'>
                                 The Standard Liscense grants you a non-exclusive right to navigate and register for our event.
                             </p>
                         </li>
-                        <li>
+                        <li className='flex justify-between w-[250px] lg:w-[450px]'>
                             <div>
-                                <img src="" alt="" />
+                                <img src={listicon} alt="" width='20px' className='mr-1' />
                             </div>
-                            <p>
-                                You are liscensed to use the item available at any free source sites, for your project dvelopment.
+                            <p className='w-[210px] lg:w-[410px]'>
+                                You are liscensed to use the item available at any free source sites, for your project development.
                             </p>
                         </li>
                     </ul>
-                    <button className='read-more px-5 py-2 rounded'>Read More</button>
+                    <button className='read-more px-5 py-2 rounded mt-5'>Read More</button>
                 </div>
             </div>
             <div>
-                <div className="">
-                    <img src={man} alt="" />
+                <div className="relative mt-10">
+                    <img src={vector} alt="" className='absolute' />
+                    <img src={man} alt="" className='relative' />
                 </div>
             </div>
         </div>

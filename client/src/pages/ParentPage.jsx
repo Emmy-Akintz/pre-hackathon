@@ -9,6 +9,7 @@ import Timeline from './Timeline';
 import Prizes from './Prizes';
 import Sponsors from './Sponsors';
 import Privacy from './Privacy';
+import Footer from './Footer';
 
 const ParentPage = () => {
     return ( 
@@ -23,6 +24,7 @@ const ParentPage = () => {
             <Prizes />
             <Sponsors />
             <Privacy />
+            <Footer />
         </div>
      );
 }
