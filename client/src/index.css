@@ -97,10 +97,12 @@
 
 .Prizes .second, .Prizes .third {
   border: 1px solid #d434fe;
+  background: #d634fe33;
 }
 
 .Prizes .first {
   border: 1px solid #903aff;
+  background: #8f3aff34;
 }
 
 .Prizes .first h1.price-award {
@@ -109,4 +111,13 @@
 
 .Prizes .second h1.price-award, .Prizes .third h1.price-award {
   color: #d434fe;
+}
+
+/* sponsors */
+.Sponsors {
+  border-bottom: 1px solid whitesmoke;
+}
+
+.Sponsors .partners {
+  border: 1px solid #d434fe;
 }

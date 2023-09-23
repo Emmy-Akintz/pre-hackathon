@@ -7,6 +7,7 @@ import Judge from './Judge';
 import Question from './Question';
 import Timeline from './Timeline';
 import Prizes from './Prizes';
+import Sponsors from './Sponsors';
 
 const ParentPage = () => {
     return ( 
@@ -19,6 +20,7 @@ const ParentPage = () => {
             <Question />
             <Timeline />
             <Prizes />
+            <Sponsors />
         </div>
      );
 }

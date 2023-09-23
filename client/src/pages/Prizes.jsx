@@ -26,8 +26,8 @@ function Prizes() {
                             <br />
                             <h1 className="price-award font-bold text-sm lg:text-xl">N300,000</h1>
                         </div>
-                        <div className="rounded w-[90px] lg:w-[200px] px-5 pb-5 text-center first relative top-[20px] pt-0">
-                            <div className="">
+                        <div className="rounded w-[90px] lg:w-[200px] pb-5 text-center first relative top-[20px] pt-0">
+                            <div className="position1">
                                 <img src={position1} alt="" />
                             </div>
                             <h1 className="font-bold">1st</h1>
