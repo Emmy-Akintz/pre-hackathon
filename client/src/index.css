@@ -67,3 +67,46 @@
 .Judge button.read-more {
   background: linear-gradient(to right, #d434fe, #903aff);
 }
+
+/* question */
+.Question {
+  border-bottom: 1px solid whitesmoke;
+}
+
+.Question ul li {
+  border-bottom: 1px solid #d434fe;
+}
+
+.Question h1.purple {
+  color: #d434fe;
+}
+
+/* timeline */
+.Timeline {
+  border-bottom: 1px solid whitesmoke;
+}
+
+/* prizes */
+.Prizes {
+  border-bottom: 1px solid whitesmoke;
+}
+
+.Prizes h1.purple {
+  color: #d434fe;
+}
+
+.Prizes .second, .Prizes .third {
+  border: 1px solid #d434fe;
+}
+
+.Prizes .first {
+  border: 1px solid #903aff;
+}
+
+.Prizes .first h1.price-award {
+  color: #903aff;
+}
+
+.Prizes .second h1.price-award, .Prizes .third h1.price-award {
+  color: #d434fe;
+}

@@ -4,6 +4,9 @@ import Navbar from '../components/Navbar';
 import Introduction from './Introduction';
 import Rules from './Rules';
 import Judge from './Judge';
+import Question from './Question';
+import Timeline from './Timeline';
+import Prizes from './Prizes';
 
 const ParentPage = () => {
     return ( 
@@ -13,6 +16,9 @@ const ParentPage = () => {
             <Introduction />
             <Rules />
             <Judge />
+            <Question />
+            <Timeline />
+            <Prizes />
         </div>
      );
 }
