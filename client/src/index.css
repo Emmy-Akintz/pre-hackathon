@@ -126,3 +126,19 @@
 .Privacy {
   border-bottom: 1px solid whitesmoke;
 }
+
+.Privacy .box {
+  border: 1px solid #903aff;
+}
+
+.Privacy button.read-more {
+  background: linear-gradient(to right, #d434fe, #903aff);
+}
+
+.Privacy h1.purple {
+  color: #d434fe;
+}
+
+.Privacy h2.purple {
+  color: #d434fe;
+}
