@@ -1,6 +1,6 @@
 import React from 'react'
-import bigidea from '../assets/The big idea.png'
-import star from '../assets/sata gra.png'
+import bigidea from '../assets/The-big-idea.png'
+import star from '../assets/sata-gra.png'
 
 const Introduction = () => {
   return (

@@ -1,8 +1,8 @@
 import React from 'react'
-import trophy from '../assets/9486889 1.png'
-import position1 from '../assets/gold_medal 1.png'
-import position2 from '../assets/silver_medal 1.png'
-import position3 from '../assets/bronze_medal 1.png'
+import trophy from '../assets/9486889-1.png'
+import position1 from '../assets/gold_medal-1.png'
+import position2 from '../assets/silver_medal-1.png'
+import position3 from '../assets/bronze_medal-1.png'
 
 function Prizes() {
     return (

@@ -1,12 +1,12 @@
 import React from 'react'
-import image1 from '../assets/Liberty company logo white colour.png'
-import image2 from '../assets/Liberty company logo white.png'
-import image3 from '../assets/Winwise logo White colour 1.png'
-import image4 from '../assets/Wisper logo white.png'
+import image1 from '../assets/Liberty-company-logo-white-colour.png'
+import image2 from '../assets/Liberty-company-logo-white.png'
+import image3 from '../assets/Winwise-logo-White-colour-1.png'
+import image4 from '../assets/Wisper-logo-white.png'
 import image5 from '../assets/Paybox.png'
-import image6 from '../assets/Vizual Plus.png'
-import horline from '../assets/Line 17.png'
-import vertline from '../assets/Line 12.png'
+import image6 from '../assets/Vizual-Plus.png'
+// import horline from '../assets/Line-17.png'
+// import vertline from '../assets/Line-12.png'
 
 
 function Sponsors() {

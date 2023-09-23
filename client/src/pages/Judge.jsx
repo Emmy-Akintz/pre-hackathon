@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../assets/8046554 1.png'
+import image from '../assets/8046554-1.png'
 
 function Judge() {
     return (

@@ -1,6 +1,6 @@
 import React from 'react'
-import image from '../assets/cwok_casual_21 1.png'
-import star from '../assets/sata gra.png'
+import image from '../assets/cwok_casual_21-1.png'
+import star from '../assets/sata-gra.png'
 
 function Question() {
     return (
