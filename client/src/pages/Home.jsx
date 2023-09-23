@@ -44,7 +44,7 @@ const Home = () => {
                         <p className='w-[200px] md:w-[400px] lg:w-[400px] my-5 relative'>
                             Participate in getlinked tech Hackathon 2023 stand a chance to win a big price
                         </p>
-                        <button className='register-button p-2 my-5'>Register</button>
+                        <button className='register-button p-2 my-5 rounded'>Register</button>
                         <div>
                             <img src={star2} alt="" className='pl-[450px]' />
                         </div>
