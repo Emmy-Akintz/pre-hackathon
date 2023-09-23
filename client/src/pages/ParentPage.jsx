@@ -8,6 +8,7 @@ import Question from './Question';
 import Timeline from './Timeline';
 import Prizes from './Prizes';
 import Sponsors from './Sponsors';
+import Privacy from './Privacy';
 
 const ParentPage = () => {
     return ( 
@@ -21,6 +22,7 @@ const ParentPage = () => {
             <Timeline />
             <Prizes />
             <Sponsors />
+            <Privacy />
         </div>
      );
 }

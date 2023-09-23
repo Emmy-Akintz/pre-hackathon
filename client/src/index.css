@@ -121,3 +121,8 @@
 .Sponsors .partners {
   border: 1px solid #d434fe;
 }
+
+/* privacy */
+.Privacy {
+  border-bottom: 1px solid whitesmoke;
+}
