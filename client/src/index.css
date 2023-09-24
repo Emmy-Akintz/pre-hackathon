@@ -181,3 +181,7 @@
 .Register .purple {
   color: #d434fe;
 }
+
+.Register .submit {
+  background: linear-gradient(to right, #d434fe, #903aff);
+}
